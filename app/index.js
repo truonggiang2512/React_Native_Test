@@ -1,4 +1,4 @@
-import { SafeAreaView, ScrollView, StyleSheet } from "react-native";
+import { SafeAreaView, ScrollView, StyleSheet, View } from "react-native";
 import { Stack, useRouter } from "expo-router";
 import { COLORS } from "../constants";
 import { Feature, Popularjobs, Welcome } from "../components"
