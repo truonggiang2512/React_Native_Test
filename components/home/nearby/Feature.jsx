@@ -1,8 +1,6 @@
 import React from "react";
-import { View, Text, FlatList, StyleSheet, ScrollView } from "react-native";
-import { SvgUri } from "react-native-svg";
+import { View, Text } from "react-native";
 import { SvgXml } from "react-native-svg";
-import { svgImage } from "../../../assets/svg/LOGO";
 import { BoxSVG } from "../../../assets/svg/BoxSVG";
 import { CartSVG } from "../../../assets/svg/CartSVG";
 import { CustomerSVG } from "../../../assets/svg/CustomerSVG";

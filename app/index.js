@@ -1,13 +1,11 @@
-import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, ScrollView, StyleSheet } from "react-native";
 import { Stack, useRouter } from "expo-router";
-import { COLORS, icons, images, SIZES } from "../constants";
-import { Feature, Popularjobs, ScreenHeaderBtn, Welcome } from "../components"
-import PopularJobCard from "../components/common/cards/popular/PopularJobCard";
+import { COLORS } from "../constants";
+import { Feature, Popularjobs, Welcome } from "../components"
 import ListProduct from "../components/home/listProduct/ListProduct";
 import FavoProduct from "../components/home/FavoProduct/FavoProduct";
 import Footer from "../components/footer/Footer";
 export default function Page() {
-  const router = useRouter()
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
       <Stack.Screen options={{ headerShown: false }} />

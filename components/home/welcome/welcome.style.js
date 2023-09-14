@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-import { COLORS, FONT, SIZES } from "../../../constants";
+import { COLORS, SIZES } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
@@ -67,7 +67,6 @@ const styles = StyleSheet.create({
 
   },
   searchInput: {
-    fontFamily: FONT.regular,
     width: "100%",
     height: "100%",
     paddingHorizontal: SIZES.medium,
@@ -111,17 +110,7 @@ const styles = StyleSheet.create({
   iconContainer: {
     paddingRight: 30
   },
-  tab: (activeJobType, item) => ({
-    paddingVertical: SIZES.small / 2,
-    paddingHorizontal: SIZES.small,
-    borderRadius: SIZES.medium,
-    borderWidth: 1,
-    borderColor: activeJobType === item ? COLORS.secondary : COLORS.gray2,
-  }),
-  tabText: (activeJobType, item) => ({
-    fontFamily: FONT.medium,
-    color: activeJobType === item ? COLORS.secondary : COLORS.gray2,
-  }),
+
 });
 
 export default styles;
